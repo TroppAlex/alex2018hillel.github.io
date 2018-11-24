@@ -1,0 +1,25 @@
+/* таблица стилей */
+/* задаем размер страницы */
+#page { width:500px; height:100% auto; margin: 10px; }
+/* задаем размещение блоков */
+#logo { float:left; width:500px; height:50px; background:#FDE2CC }
+#menu { float:left; width:150px; height:170px; background:#EEB6B6; margin-top: 10px }
+#content { float:right; width:340px; height:200px; background:#B9BBF1; margin-top: 10px }
+/* таблица стилей */
+/* задаем размещение блоков */
+#page { width:800px; background:none;}
+#header { background:red; width:800px; height:100px; margin-bottom:0px; padding:0px; }
+#menu { background:gray; width:140px; height:300px; }
+#content {
+	width: 650px;
+	height: 850px;
+	background-color: white;
+	background-image: url(file:///E|/Documents%20and%20Settings/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80/%D0%9C%D0%BE%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/2003/!/872957008.gif);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #FF3;
+}
+/* задаем параметры для заголовков */
+h1 { text-align:center; }
+h3 { font-weight:normal; font-size:24px; }
