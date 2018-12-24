@@ -42,18 +42,18 @@
 	</action>
 
 	
-	<scene name="scene_[Group 0]-_DSC6205__DSC6265-21 images1" title="[Group 0]-_DSC6205__DSC6265-21 images1" onstart="" thumburl="panos/_Group_0_-_DSC6205__DSC6265-21_images1.tiles/thumb.jpg">
+	<scene name="scene_Group1" title="Group1" onstart="" thumburl="panos/Group1.tiles/thumb.jpg">
 
 		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="90" maxpixelzoom="2.0" fovmin="60" fovmax="120" limitview="auto" />
 
-		<preview url="panos/_Group_0_-_DSC6205__DSC6265-21_images1.tiles/preview.jpg" />
+		<preview url="panos/Group1.tiles/preview.jpg" />
 
 		<image type="CUBE" multires="true" tilesize="848" progressive="false">
 			<level tiledimagewidth="2122" tiledimageheight="2122">
-				<cube url="panos/_Group_0_-_DSC6205__DSC6265-21_images1.tiles/l2_%s_%0v%0h.jpg" />
+				<cube url="panos/Group1.tiles/l2_%s_%0v%0h.jpg" />
 			</level>
 			<level tiledimagewidth="1061" tiledimageheight="1061">
-				<cube url="panos/_Group_0_-_DSC6205__DSC6265-21_images1.tiles/l1_%s_%0v%0h.jpg" />
+				<cube url="panos/Group1.tiles/l1_%s_%0v%0h.jpg" />
 			</level>
 		</image>
 
