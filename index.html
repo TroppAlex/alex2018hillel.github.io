@@ -1,28 +1,28 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="style.css" rel="stylesheet" type="text/css">
-<title>ПРОБА_CSS</title>
+	<title>krpano.com - Group1</title>
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<style>
+		@media only screen and (min-device-width: 800px) { html { overflow:hidden; } }
+		html { height:100%; }
+		body { height:100%; overflow: hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
+		a{ color:#AAAAAA; text-decoration:underline; }
+		a:hover{ color:#FFFFFF; text-decoration:underline; }
+	</style>
 </head>
-<link type="text/css" rel="stylesheet" href="magiczoomplus/magiczoomplus.css"/>
-<script type="text/javascript" src="magiczoomplus/magiczoomplus.js"></script>
 <body>
-<div id="page">
-<div id="header">
-  <h1>Magic Zoom Plus</h1>
+
+<script src="tour.js"></script>
+
+<div id="pano" style="width:100%; height:100%;">
+	<noscript><table style="width:100%;height:100%;"><tr style="valign:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+	<script>
+		embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano"});
+	</script>
 </div>
-<div id="content">
-  <h3>Пробы пера.</h3>
-  <div align="center">
-  <a href="images/big.jpg" class="MagicZoomPlus" rel="zoom-distance:200"><img src="images/small.jpg"/></a></div>
-  <div align="justify"><br/>
-    
-    <a href="trainer1big.jpg" rel="zoom-id:trainers" rev="trainer1small.jpg"><img src="trainer1tiny.jpg"/></a>
-    <a href="trainer2big.jpg" rel="zoom-id:trainers" rev="trainer2small.jpg"><img src="trainer2tiny.jpg"/></a>
-    <a href="trainer3big.jpg" rel="zoom-id:trainers" rev="trainer3small.jpg"><img src="trainer3tiny.jpg"/></a></div>
-	<a href="trainer1big.jpg" class="MagicZoomPlus" id="trainers" rel="selectors-change:mouseover; selectors-mouseover-delay:100"><img src="trainer1small.jpg"></a>
-  </div>
-</div>
+
 </body>
 </html>
